@@ -1,0 +1,1634 @@
+.img_bgs{
+    height: 630px;
+    width: 100%;
+    opacity: 0.5;
+}
+.image1{
+    margin-top: 20px;
+    width: 30px;
+    margin-left: 300px;
+}
+.cont1{
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-left: 340px;
+    margin-top: -25px;
+}
+.image2{
+    margin-top: -95px;
+    width: 30px;
+    margin-left: 730px;
+}
+.cont2{
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-left: 770px;
+    margin-top: -68px;
+}
+.contact-title1{
+    font-size: 45px;
+    margin-top: 60px;
+    text-align: center;
+    color: gray;
+    letter-spacing: 2px;
+}
+.contact-title2{
+    margin-top: 25px;
+    text-align: center;
+    color: gray;
+    letter-spacing: 2px;
+}
+.line2{
+    opacity: 0.4;
+    margin-top: 20px;
+    width: 800px;
+    border: 1px solid gray;
+}
+.contact-title1 span{
+    color: tomato;
+}
+
+/* Footer */
+.bg_color{
+    margin-top: 40px;
+    background-color: rgb(236, 236, 236);
+    height: 130px;
+}
+.fa{
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 25px;
+    width: 40px;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#icons{
+    text-decoration: none;
+}
+.fa:hover{
+    opacity: 0.7;
+    color: red;
+}
+.fa-facebook{
+    background-color: rgb(236, 236, 236);
+    color: black;
+}
+.fa-github{
+    background-color: rgb(236, 236, 236);
+    color: black;
+}
+.fa-google{
+    background-color: rgb(236, 236, 236);
+    color: black;
+}
+.copy{
+    margin-top: 15px;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+/* Samsung S5 and Moto G4 (Portrait) */
+@media only screen and (width: 360px){
+    .img_bgs{
+        height: 600px;
+        width: 100%;
+        opacity: 0.5;
+    }
+    .image1{
+        margin-top: 8px;
+        width: 17px;
+        margin-left: 47px;
+    }
+    .cont1{
+        font-size: 16px;
+        letter-spacing: 1.5px;
+        margin-left: 72px;
+        margin-top: -21px;
+    }
+    .image2{
+        margin-top: -15px;
+        width: 17px;
+        margin-left: 47px;
+    }
+    .cont2{
+        font-size: 16px;
+        letter-spacing: 0.5px;
+        margin-left: 76px;
+        margin-top: -30px;
+    }
+    .contact-title1{
+        font-size: 35px;
+        margin-top: 40px;
+        color: gray;
+        letter-spacing: 0px;
+        margin-left: -2px;
+    }
+    .contact-title2{
+        margin-top: 15px;
+        color: gray;
+        letter-spacing: 0px;
+        font-size: 17px;
+        margin-left: -5px;
+    }
+    .line2{
+        margin-left: 30px;
+        opacity: 0.4;
+        margin-top: 17px;
+        width: 265px;
+        border: 1px solid gray;
+    }
+    .contact-title1 span{
+        color: tomato;
+    }
+    
+    /* Footer */
+    .bg_color{
+        margin-top: 20px;
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }   
+}
+
+/* Samsung S5 and Moto G4 (Landscape) */
+@media only screen and (width: 640px){
+    .img_bgs{
+        height: 500px;
+        width: 100%;
+        opacity: 0.5;
+    }
+    .image1{
+        margin-top: 8px;
+        width: 17px;
+        margin-left: 210px;
+    }
+    .cont1{
+        font-size: 16px;
+        letter-spacing: 1.5px;
+        margin-left: 235px;
+        margin-top: -21px;
+    }
+    .image2{
+        margin-top: -15px;
+        width: 17px;
+        margin-left: 175px;
+    }
+    .cont2{
+        font-size: 16px;
+        letter-spacing: 1px;
+        margin-left: 202px;
+        margin-top: -30px;
+    }
+    .contact-title1{
+        font-size: 35px;
+        margin-top: 40px;
+        color: gray;
+        letter-spacing: 0px;
+        margin-left: 4px;
+    }
+    .contact-title2{
+        margin-top: 15px;
+        color: gray;
+        letter-spacing: 0px;
+        font-size: 19px;
+        margin-left: 2px;
+    }
+    .line2{
+        margin-left: 100px;
+        opacity: 0.4;
+        margin-top: 17px;
+        width: 410px;
+        border: 1px solid gray;
+    }
+    .contact-title1 span{
+        color: tomato;
+    }
+    
+    /* Footer */
+    .bg_color{
+        margin-top: 20px;
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+}
+
+/* Pixel 2 and Pixel 2 XL (Portrait) */
+@media only screen and (width: 411px){
+    .img_bgs{
+        height: 630px;
+        width: 100%;
+        opacity: 0.5;
+    }
+    .image1{
+        margin-top: 8px;
+        width: 18px;
+        margin-left: 65px;
+    }
+    .cont1{
+        font-size: 16.5px;
+        letter-spacing: 1.5px;
+        margin-left: 93px;
+        margin-top: -21px;
+    }
+    .image2{
+        margin-top: -15px;
+        width: 18px;
+        margin-left: 65px;
+    }
+    .cont2{
+        font-size: 16.5px;
+        letter-spacing: 0.8px;
+        margin-left: 96px;
+        margin-top: -30px;
+    }
+    .contact-title1{
+        font-size: 37px;
+        margin-top: 40px;
+        color: gray;
+        letter-spacing: 0px;
+        margin-left: 4px;
+    }
+    .contact-title2{
+        margin-top: 15px;
+        color: gray;
+        letter-spacing: 0px;
+        font-size: 19px;
+        margin-left: 1px;
+    }
+    .line2{
+        margin-left: 34px;
+        opacity: 0.4;
+        margin-top: 17px;
+        width: 314px;
+        border: 1px solid gray;
+    }
+    .contact-title1 span{
+        color: tomato;
+    }
+    
+    /* Footer */
+    .bg_color{
+        margin-top: 20px;
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+}
+
+/* Pixel 2 (Landscape) */
+@media only screen and (width: 731px){
+    .img_bgs{
+        height: 500px;
+        width: 100%;
+        opacity: 0.5;
+    }
+    .image1{
+        margin-top: 8px;
+        width: 17px;
+        margin-left: 259px;
+    }
+    .cont1{
+        font-size: 16px;
+        letter-spacing: 1.5px;
+        margin-left: 284px;
+        margin-top: -21px;
+    }
+    .image2{
+        margin-top: -15px;
+        width: 17px;
+        margin-left: 227px;
+    }
+    .cont2{
+        font-size: 16px;
+        letter-spacing: 1px;
+        margin-left: 252px;
+        margin-top: -30px;
+    }
+    .contact-title1{
+        font-size: 38px;
+        margin-top: 40px;
+        color: gray;
+        letter-spacing: 0px;
+        margin-left: 4px;
+    }
+    .contact-title2{
+        margin-top: 15px;
+        color: gray;
+        letter-spacing: 0px;
+        font-size: 20px;
+        margin-left: 2px;
+    }
+    .line2{
+        margin-left: 130px;
+        opacity: 0.4;
+        margin-top: 17px;
+        width: 440px;
+        border: 1px solid gray;
+    }
+    .contact-title1 span{
+        color: tomato;
+    }
+    
+    /* Footer */
+    .bg_color{
+        margin-top: 20px;
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+}
+
+/* Pixel 2 XL (Landscape) */
+@media only screen and (width: 823px){
+    .img_bgs{
+        height: 500px;
+        width: 100%;
+        opacity: 0.5;
+    }
+    .image1{
+        margin-top: 8px;
+        width: 18px;
+        margin-left: 303px;
+    }
+    .cont1{
+        font-size: 16px;
+        letter-spacing: 1.5px;
+        margin-left: 330px;
+        margin-top: -21px;
+    }
+    .image2{
+        margin-top: -15px;
+        width: 18px;
+        margin-left: 267px;
+    }
+    .cont2{
+        font-size: 16px;
+        letter-spacing: 1px;
+        margin-left: 295px;
+        margin-top: -30px;
+    }
+    .contact-title1{
+        font-size: 39px;
+        margin-top: 40px;
+        color: gray;
+        letter-spacing: 0px;
+        margin-left: 4px;
+    }
+    .contact-title2{
+        margin-top: 15px;
+        color: gray;
+        letter-spacing: 0px;
+        font-size: 21px;
+        margin-left: 2px;
+    }
+    .line2{
+        margin-left: 136px;
+        opacity: 0.4;
+        margin-top: 17px;
+        width: 518px;
+        border: 1px solid gray;
+    }
+    .contact-title1 span{
+        color: tomato;
+    }
+    
+    /* Footer */
+    .bg_color{
+        margin-top: 20px;
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }   
+}
+
+/* Iphone 5/SE (Portrait) */
+@media only screen and (width: 320px){
+    .img_bgs{
+        height: 550px;
+        width: 100%;
+        opacity: 0.5;
+    }
+    .image1{
+        margin-top: 8px;
+        width: 16px;
+        margin-left: 40px;
+    }
+    .cont1{
+        font-size: 15px;
+        letter-spacing: 1.5px;
+        margin-left: 65px;
+        margin-top: -21px;
+    }
+    .image2{
+        margin-top: -15px;
+        width: 16px;
+        margin-left: 40px;
+    }
+    .cont2{
+        font-size: 15px;
+        letter-spacing: 0px;
+        margin-left: 68px;
+        margin-top: -30px;
+    }
+    .contact-title1{
+        font-size: 33px;
+        margin-top: 40px;
+        color: gray;
+        letter-spacing: 0px;
+        margin-left: 4px;
+    }
+    .contact-title2{
+        margin-top: 15px;
+        color: gray;
+        letter-spacing: -0.2px;
+        font-size: 17px;
+        margin-left: -2px;
+    }
+    .line2{
+        margin-left: 12px;
+        opacity: 0.4;
+        margin-top: 17px;
+        width: 265px;
+        border: 1px solid gray;
+    }
+    .contact-title1 span{
+        color: tomato;
+    }
+    
+    /* Footer */
+    .bg_color{
+        margin-top: 20px;
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 20px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 2px;
+    }   
+}
+
+/* Iphone 5/SE (Landscape) */
+@media only screen and (width: 568px){
+    .img_bgs{
+        height: 400px;
+        width: 100%;
+        opacity: 0.5;
+    }
+    .image1{
+        margin-top: 8px;
+        width: 17px;
+        margin-left: 180px;
+    }
+    .cont1{
+        font-size: 16px;
+        letter-spacing: 1.5px;
+        margin-left: 205px;
+        margin-top: -21px;
+    }
+    .image2{
+        margin-top: -15px;
+        width: 17px;
+        margin-left: 150px;
+    }
+    .cont2{
+        font-size: 16px;
+        letter-spacing: 1px;
+        margin-left: 175px;
+        margin-top: -30px;
+    }
+    .contact-title1{
+        font-size: 34px;
+        margin-top: 40px;
+        color: gray;
+        letter-spacing: 0px;
+        margin-left: 4px;
+    }
+    .contact-title2{
+        margin-top: 15px;
+        color: gray;
+        letter-spacing: 0px;
+        font-size: 19px;
+        margin-left: 2px;
+    }
+    .line2{
+        margin-left: 75px;
+        opacity: 0.4;
+        margin-top: 17px;
+        width: 385px;
+        border: 1px solid gray;
+    }
+    .contact-title1 span{
+        color: tomato;
+    }
+
+    /* Footer */
+    .bg_color{
+        margin-top: 20px;
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 20px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+}
+
+/* Iphone 6/7/8 and Iphone X (Portrait) */
+@media only screen and (width: 375px){
+    .img_bgs{
+        height: 600px;
+        width: 100%;
+        opacity: 0.5;
+    }
+    .image1{
+        margin-top: 8px;
+        width: 18px;
+        margin-left: 53px;
+    }
+    .cont1{
+        font-size: 16px;
+        letter-spacing: 1.5px;
+        margin-left: 78px;
+        margin-top: -21px;
+    }
+    .image2{
+        margin-top: -15px;
+        width: 18px;
+        margin-left: 53px;
+    }
+    .cont2{
+        font-size: 16px;
+        letter-spacing: 0.5px;
+        margin-left: 82px;
+        margin-top: -30px;
+    }
+    .contact-title1{
+        font-size: 35px;
+        margin-top: 40px;
+        color: gray;
+        letter-spacing: 0px;
+        margin-left: 4px;
+    }
+    .contact-title2{
+        margin-top: 15px;
+        color: gray;
+        letter-spacing: 0px;
+        font-size: 18px;
+        margin-left: -5px;
+    }
+    .line2{
+        margin-left: 29px;
+        opacity: 0.4;
+        margin-top: 17px;
+        width: 285px;
+        border: 1px solid gray;
+    }
+    .contact-title1 span{
+        color: tomato;
+    }
+    
+    /* Footer */
+    .bg_color{
+        margin-top: 20px;
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }   
+}
+
+/* Iphone 6/7/8 (Landscape) */
+@media only screen and (width: 667px){
+    .img_bgs{
+        height: 450px;
+        width: 100%;
+        opacity: 0.5;
+    }
+    .image1{
+        margin-top: 8px;
+        width: 18px;
+        margin-left: 220px;
+    }
+    .cont1{
+        font-size: 16px;
+        letter-spacing: 1.5px;
+        margin-left: 245px;
+        margin-top: -21px;
+    }
+    .image2{
+        margin-top: -15px;
+        width: 18px;
+        margin-left: 185px;
+    }
+    .cont2{
+        font-size: 16px;
+        letter-spacing: 1px;
+        margin-left: 212px;
+        margin-top: -30px;
+    }
+    .contact-title1{
+        font-size: 35px;
+        margin-top: 40px;
+        color: gray;
+        letter-spacing: 0px;
+        margin-left: 4px;
+    }
+    .contact-title2{
+        margin-top: 15px;
+        color: gray;
+        letter-spacing: 0px;
+        font-size: 19px;
+        margin-left: 2px;
+    }
+    .line2{
+        margin-left: 105px;
+        opacity: 0.4;
+        margin-top: 17px;
+        width: 420px;
+        border: 1px solid gray;
+    }
+    .contact-title1 span{
+        color: tomato;
+    }
+    
+    /* Footer */
+    .bg_color{
+        margin-top: 20px;
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+}
+
+/* Iphone 6/7/8 Plus (Portrait) */
+@media only screen and (width: 414px){
+    .img_bgs{
+        height: 640px;
+        width: 100%;
+        opacity: 0.5;
+    }
+    .image1{
+        margin-top: 8px;
+        width: 18px;
+        margin-left: 65px;
+    }
+    .cont1{
+        font-size: 16.5px;
+        letter-spacing: 1.5px;
+        margin-left: 93px;
+        margin-top: -21px;
+    }
+    .image2{
+        margin-top: -15px;
+        width: 18px;
+        margin-left: 65px;
+    }
+    .cont2{
+        font-size: 16.5px;
+        letter-spacing: 0.8px;
+        margin-left: 96px;
+        margin-top: -30px;
+    }
+    .contact-title1{
+        font-size: 37px;
+        margin-top: 40px;
+        color: gray;
+        letter-spacing: 0px;
+        margin-left: 4px;
+    }
+    .contact-title2{
+        margin-top: 15px;
+        color: gray;
+        letter-spacing: 0px;
+        font-size: 19px;
+        margin-left: 1px;
+    }
+    .line2{
+        margin-left: 34px;
+        opacity: 0.4;
+        margin-top: 17px;
+        width: 314px;
+        border: 1px solid gray;
+    }
+    .contact-title1 span{
+        color: tomato;
+    }
+    
+    /* Footer */
+    .bg_color{
+        margin-top: 20px;
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+}
+
+/* Iphone 6/7/8 Plus (Landscape) */
+@media only screen and (width: 736px){
+    .img_bgs{
+        height: 500px;
+        width: 100%;
+        opacity: 0.5;
+    }
+    .image1{
+        margin-top: 8px;
+        width: 18px;
+        margin-left: 259px;
+    }
+    .cont1{
+        font-size: 16px;
+        letter-spacing: 1.5px;
+        margin-left: 284px;
+        margin-top: -21px;
+    }
+    .image2{
+        margin-top: -15px;
+        width: 18px;
+        margin-left: 227px;
+    }
+    .cont2{
+        font-size: 16px;
+        letter-spacing: 1px;
+        margin-left: 252px;
+        margin-top: -30px;
+    }
+    .contact-title1{
+        font-size: 38px;
+        margin-top: 40px;
+        color: gray;
+        letter-spacing: 0px;
+        margin-left: 4px;
+    }
+    .contact-title2{
+        margin-top: 15px;
+        color: gray;
+        letter-spacing: 0px;
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    .line2{
+        margin-left: 130px;
+        opacity: 0.4;
+        margin-top: 17px;
+        width: 440px;
+        border: 1px solid gray;
+    }
+    .contact-title1 span{
+        color: tomato;
+    }
+    
+    /* Footer */
+    .bg_color{
+        margin-top: 20px;
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }   
+}
+
+/* Iphone X (Height) */
+@media only screen and (height: 812px){
+    .img_bgs{
+        height: 710px;
+        width: 100%;
+        opacity: 0.5;
+    }
+    .image1{
+        margin-top: 8px;
+        width: 18px;
+        margin-left: 47px;
+    }
+    .cont1{
+        font-size: 16.5px;
+        letter-spacing: 1.5px;
+        margin-left: 72px;
+        margin-top: -21px;
+    }
+    .image2{
+        margin-top: -15px;
+        width: 18px;
+        margin-left: 47px;
+    }
+    .cont2{
+        font-size: 16.5px;
+        letter-spacing: 0.7px;
+        margin-left: 76px;
+        margin-top: -30px;
+    }
+    .contact-title1{
+        font-size: 38px;
+        margin-top: 40px;
+        color: gray;
+        letter-spacing: 0px;
+        margin-left: 4px;
+    }
+    .contact-title2{
+        margin-top: 15px;
+        color: gray;
+        letter-spacing: 0px;
+        font-size: 19px;
+        margin-left: -2px;
+    }
+    .line2{
+        margin-left: 22px;
+        opacity: 0.4;
+        margin-top: 17px;
+        width: 300px;
+        border: 1px solid gray;
+    }
+    .contact-title1 span{
+        color: tomato;
+    }
+    
+    /* Footer */
+    .bg_color{
+        margin-top: 20px;
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }   
+}
+
+/* Iphone X (Landscape) */
+@media only screen and (width: 812px){
+    .img_bgs{
+        height: 450px;
+        width: 100%;
+        opacity: 0.5;
+    }
+    .image1{
+        margin-top: 8px;
+        width: 18px;
+        margin-left: 303px;
+    }
+    .cont1{
+        font-size: 16px;
+        letter-spacing: 1.5px;
+        margin-left: 330px;
+        margin-top: -21px;
+    }
+    .image2{
+        margin-top: -15px;
+        width: 18px;
+        margin-left: 267px;
+    }
+    .cont2{
+        font-size: 16px;
+        letter-spacing: 1px;
+        margin-left: 295px;
+        margin-top: -30px;
+    }
+    .contact-title1{
+        font-size: 39px;
+        margin-top: 40px;
+        color: gray;
+        letter-spacing: 0px;
+        margin-left: 4px;
+    }
+    .contact-title2{
+        margin-top: 15px;
+        color: gray;
+        letter-spacing: 0px;
+        font-size: 21px;
+        margin-left: 2px;
+    }
+    .line2{
+        margin-left: 136px;
+        opacity: 0.4;
+        margin-top: 17px;
+        width: 518px;
+        border: 1px solid gray;
+    }
+    .contact-title1 span{
+        color: tomato;
+    }
+    
+    /* Footer */
+    .bg_color{
+        margin-top: 20px;
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+}
+
+/* Ipad (Portrait) */
+@media only screen and (width: 768px){
+    .img_bgs{
+        height: 670px;
+        width: 100%;
+        opacity: 0.5;
+    }
+    .image1{
+        margin-top: 8px;
+        width: 18px;
+        margin-left: 264px;
+    }
+    .cont1{
+        font-size: 16.5px;
+        letter-spacing: 1.5px;
+        margin-left: 289px;
+        margin-top: -21px;
+    }
+    .image2{
+        margin-top: -15px;
+        width: 18px;
+        margin-left: 232px;
+    }
+    .cont2{
+        font-size: 16.5px;
+        letter-spacing: 1px;
+        margin-left: 257px;
+        margin-top: -30px;
+    }
+    .contact-title1{
+        font-size: 39px;
+        margin-top: 40px;
+        color: gray;
+        letter-spacing: 0px;
+        margin-left: 3px;
+    }
+    .contact-title2{
+        margin-top: 15px;
+        color: gray;
+        letter-spacing: 0px;
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    .line2{
+        margin-left: 145px;
+        opacity: 0.4;
+        margin-top: 17px;
+        width: 445px;
+        border: 1px solid gray;
+    }
+    .contact-title1 span{
+        color: tomato;
+    }
+    
+    /* Footer */
+    .bg_color{
+        margin-top: 20px;
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }   
+}
+
+/* Ipad (Landscape) */
+@media only screen and (width: 1024px){
+    .img_bgs{
+        height: 630px;
+        width: 100%;
+        opacity: 0.5;
+    }
+    .image1{
+        margin-top: 8px;
+        width: 18px;
+        margin-left: 402px;
+    }
+    .cont1{
+        font-size: 16.5px;
+        letter-spacing: 1.5px;
+        margin-left: 430px;
+        margin-top: -21px;
+    }
+    .image2{
+        margin-top: -15px;
+        width: 18px;
+        margin-left: 364px;
+    }
+    .cont2{
+        font-size: 16.5px;
+        letter-spacing: 1px;
+        margin-left: 394px;
+        margin-top: -30px;
+    }
+    .contact-title1{
+        font-size: 40px;
+        margin-top: 40px;
+        color: gray;
+        letter-spacing: 0px;
+        margin-left: 4px;
+    }
+    .contact-title2{
+        margin-top: 15px;
+        color: gray;
+        letter-spacing: 0px;
+        font-size: 22px;
+        margin-left: 4px;
+    }
+    .line2{
+        margin-left: 240px;
+        opacity: 0.4;
+        margin-top: 17px;
+        width: 520px;
+        border: 1px solid gray;
+    }
+    .contact-title1 span{
+        color: tomato;
+    }
+    
+    /* Footer */
+    .bg_color{
+        margin-top: 20px;
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }   
+}
+
+/* Ipad Pro (Portrait) */
+@media only screen and (width: 1024px){
+    .img_bgs{
+        height: 1050px;
+        width: 100%;
+        opacity: 0.5;
+    }
+    .image1{
+        margin-top: 8px;
+        width: 18px;
+        margin-left: 394px;
+    }
+    .cont1{
+        font-size: 16.5px;
+        letter-spacing: 1.5px;
+        margin-left: 425px;
+        margin-top: -21px;
+    }
+    .image2{
+        margin-top: -15px;
+        width: 18px;
+        margin-left: 358px;
+    }
+    .cont2{
+        font-size: 16.5px;
+        letter-spacing: 1px;
+        margin-left: 388px;
+        margin-top: -30px;
+    }
+    .contact-title1{
+        font-size: 40px;
+        margin-top: 40px;
+        color: gray;
+        letter-spacing: 0px;
+        margin-left: 8px;
+    }
+    .contact-title2{
+        margin-top: 33px;
+        color: gray;
+        letter-spacing: 0px;
+        font-size: 22px;
+        margin-left: -10px;
+    }
+    .line{
+        transform: rotate(90deg);
+        margin: -32px 0px 0px 370px;
+        width: 32px;
+        border: 2px solid tomato;
+    }
+    .line2{
+        margin-left: 220px;
+        opacity: 0.4;
+        margin-top: 17px;
+        width: 550px;
+        border: 1px solid gray;
+    }
+    .contact-title1 span{
+        color: tomato;
+    }
+    
+    /* Footer */
+    .bg_color{
+        margin-top: 20px;
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }   
+}
+
+/* THE END */

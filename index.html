@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="shortcut icon" type="Image/png" href="Image/Icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="homepage.css">
+    <title>Portfolio</title>
+</head>
+
+<body class="bg-light">
+    <div class="container-fluid">
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="material-icons">arrow_upward</i></button>
+        <div class="row">
+            <div class="col">
+                <nav class="navbar fixed-top navbar-expand-lg navbar-light nav-bg">
+                    <a class="navbar-brand a" href="index.html">M<span id="color">R</span></a>
+                    <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse"
+                        data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav mr-auto mt-2 mt-md-0 pl-5">
+                            <li class="nav-item active">
+                                <a class="nav-link font-weight-bold" id="color" href="index.html">Home<span
+                                        class="sr-only">(current)</span></a>
+                            </li>
+                            <hr class="d">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
+                            </li>
+                            <hr class="d">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="work.html">Work<span class="sr-only">(current)</span></a>
+                            </li>
+                            <hr class="d">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="contact.html">Contact<span
+                                        class="sr-only">(current)</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img class="img-fluid bg_img" src="Image/2550671.jpg" alt="Background Image">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col align-middle d-inline-block">
+                <h1 class="h1" id="shadow">
+                    Hello<span>.!</span>
+                </h1>
+                <h1 class="h2" id="shadow">
+                    I'm Moosa Raza
+                </h1>
+                <h2 class="h3" id="shadow">
+                    I'm a Developer<span>.</span>
+                </h2>
+                <h1 class="h4" id="shadow">
+                    &lt;Web&gt;<span>.</span>
+                </h1>
+                <h1 class="h5" id="shadow">
+                    Desktop<span>;</span>
+                </h1>
+                <h2 class="h6" id="shadow">
+                    This Field Intersects<span>..</span>
+                </h2>
+                <h1 class="h7" id="shadow">
+                    Code
+                </h1>
+                <h3 class="h8" id="shadow">
+                    &
+                </h3>
+                <h1 class="h9" id="shadow">
+                    Design
+                </h1>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid img-fluid">
+        <div class="row text-white adjust">
+            <div class="col">
+                <h4 class="text-center quote" cite="https://www.brainyquote.com/topics/portfolio-quotes">
+                    &ldquo; I'm looking to expand my <span>portfolio</span> while I'm on top and while I'm young.
+                    &rdquo;
+                </h4>
+                <h5 class="author">
+                    <i>- Floyd Mayweather, Jr.</i>
+                </h5>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-center bg_color">
+        <div class="row">
+            <div class="col">
+                <a id="icons" href="https://www.facebook.com/ali.moosa.9849" target="_ Blank1"
+                    class="fa fa-facebook"></a>
+                <a id="icons" href="https://github.com/moosaraza8877" target="_ Blank2" class="fa fa-github"></a>
+                <a id="icons" href="mailto: moosaraza8877@gmail.com" target="_ Blank3" class="fa fa-google"></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p class="copy">
+                    Copyright &copy; 2020 MR
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Back to Top button script -->
+    <script>
+        //Get the button:
+        mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+                behavior: "smooth"
+            }
+            else {
+                mybutton.style.display = "none";
+            }
+        }
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
+    <!-- Bootstrap script -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

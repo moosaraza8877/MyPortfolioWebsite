@@ -1,0 +1,3046 @@
+@font-face{
+    font-family: "Pacific";
+    src: url("Font/Pacifico-Regular.ttf");
+}
+@font-face{
+    font-family: "Allerta";
+    src: url("Font/AllertaStencil-Regular.ttf");
+}
+@font-face{
+    font-family: "Righteous";
+    src: url("Font/Righteous-Regular.ttf");
+}
+.nav-bg{
+    background-color: rgb(236, 236, 236);
+}
+.a{
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 40px;
+    font-family: "Pacific";
+}
+#color{
+    color: red;
+}
+.d{
+    margin-top: 20px;
+    width: 20px;
+    transform: rotate(90deg);
+}
+.bg_img{
+    margin-top: 70px;
+    width: 100% !important;
+    height: 580px;
+    z-index: -1;
+    opacity: 0.5;
+}
+#myBtn{
+    display: none;
+    position: fixed;
+    padding-top: 2px;
+    padding-left: -2px;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #e62739;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+#myBtn:active{
+    background: #cc2333;
+}
+#shadow{
+    text-shadow: 5px 5px rgb(236, 236, 236);
+}
+.h1{
+    color: red;
+    font-size: 85px;
+    padding-left: 443px;
+    margin-top: -560px;
+    font-weight: bold;
+    letter-spacing: 18px;
+    font-family: "Allerta";
+}
+.h2{
+    padding-left: 446px;
+    margin-top: -5;
+    letter-spacing: -4.5px;
+    font-size: 58px;
+    color: rgb(246, 71, 71);
+    font-family: "Allerta";
+}
+.h3{
+    color: palevioletred;
+    letter-spacing: 9px;
+    margin-top: -25px;
+    padding-left: 452px;
+    font-family: "Allerta";
+}
+.h3 span{
+    font-size: 70px;
+    padding-left: 2px;
+    color: purple;
+    font-family: "Allerta";
+}
+.h4{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(77, 5, 232);
+    letter-spacing: 2px;
+    padding-left: 445px;
+    margin-top: -20px;
+    font-family: "Allerta";
+}
+.h4 span{
+    font-size: 70px;
+    padding-left: 2px;
+    color: rgb(58, 83, 155);
+    font-family: "Allerta";
+}
+.h5{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(82, 179, 217);
+    letter-spacing: 2px;
+    padding-left: 629px;
+    margin-top: -71px;
+    font-family: "Allerta";
+}
+.h5 span{
+    font-size: 50px;
+    padding-left: 2px;
+    color: rgb(58, 83, 155);
+    font-family: "Allerta";
+}
+.h6{
+    font-weight: bold;
+    font-size: 20px;
+    color: teal;
+    letter-spacing: 6.5px;
+    padding-left: 452px;
+    margin-top: -14px;
+    font-family: "Allerta";
+}
+.h6 span{
+    font-size: 50px;
+    padding-left: 1px;
+    color: rgb(58, 83, 155);
+    font-family: "Allerta";
+}
+.h7{
+    letter-spacing: 2px;
+    font-size: 55px;
+    font-weight: bold;
+    color: crimson;
+    padding-left: 448px;
+    margin-top: 5px;
+    font-family: "Allerta";
+}
+.h8{
+    color: darkgreen;
+    padding-left: 604px;
+    margin-top: -47px;
+    font-family: "Allerta";
+}
+.h9{
+    letter-spacing: 1px;
+    font-size: 55px;
+    color: darkorange;
+    padding-left: 630px;
+    margin-top: -67px;
+    font-family: "Allerta";
+    font-weight: lighter;
+}
+/* Before footer */
+.adjust{
+    height: 120px;
+    font-family: "Righteous";
+    padding-top: 30px;
+    background-color: darkgray;
+    opacity: 0.8;
+}
+.quote{
+    font-size: 25px;
+}
+.quote span{
+    color: black;
+    opacity: 0.8;
+}
+.author{
+    padding-left: 1000px;
+    color: black;
+    opacity: 0.8;
+}
+/* Footer */
+.bg_color{
+    background-color: rgb(236, 236, 236);
+    height: 130px;
+}
+.fa{
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 25px;
+    width: 40px;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#icons{
+    text-decoration: none;
+}
+.fa:hover{
+    opacity: 0.7;
+    color: red;
+}
+.fa-facebook{
+    background-color: rgb(236, 236, 236);
+    color: black;
+}
+.fa-github{
+    background-color: rgb(236, 236, 236);
+    color: black;
+}
+.fa-google{
+    background-color: rgb(236, 236, 236);
+    color: black;
+}
+.copy{
+    margin-top: 15px;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+/* Samsung S5 and Moto G4 (Portrait) */
+@media only screen and (width: 360px){
+    .d{
+        display: none;
+    }
+    .a{
+        font-size: 30px;
+        font-weight: bold;
+        padding-left: 0px;
+        font-family: "Pacific";
+    }
+    .pl-5{
+        padding: 0px !important;
+    }
+    .bg_img{
+        width: 100%;
+        margin-top: 70px;
+        height: 500px;
+        z-index: -1;
+        opacity: 0.5;
+    }
+    #shadow{
+        text-shadow: 2px 2px rgb(236, 236, 236);
+    }
+    .h1{
+        color: red;
+        margin-left: -340px;
+        font-size: 35px;
+        margin-top: -470px;
+        font-weight: bold;
+        letter-spacing: 4px;
+    }
+    .h2{
+        margin-left: -344px;
+        letter-spacing: -3.8px;
+        font-size: 25px;
+        color: rgb(246, 71, 71);
+    }
+    .h3{
+        margin-top: 10px;
+        margin-left: -349px;
+        font-size: 20px;
+        color: palevioletred;
+        letter-spacing: -1.7px;
+    }
+    .h3 span{
+        font-size: 20px;
+        padding-left: 2px;
+        color: purple;
+    }
+    .h4{
+        margin-top: 15px;
+        margin-left: -344px;
+        font-size: 18px;
+        font-weight: bold;
+        color: rgb(77, 5, 232);
+        letter-spacing: -1px;
+    }
+    .h4 span{
+        font-size: 18px;
+        padding-right: 8px;
+        color: rgb(58, 83, 155);
+    }
+    .h5{
+        margin-top: -29px;
+        margin-left: -459px;
+        font-size: 18px;
+        font-weight: bold;
+        color: rgb(82, 179, 217);
+        letter-spacing: -1.2px;
+    }
+    .h5 span{
+        font-size: 18px;
+        padding-left: 2px;
+        color: rgb(58, 83, 155);
+    }
+    .h6{
+        margin-top: 15px;
+        margin-left: -348px;
+        font-weight: bold;
+        font-size: 13px;
+        color: teal;
+        letter-spacing: -0px;
+    }
+    .h6 span{
+        font-size: 13px;
+        padding-left: 2px;
+        color: rgb(58, 83, 155);
+    }
+    .h7{
+        margin-top: 10px;
+        margin-left: -344px;
+        letter-spacing: 0.5px;
+        font-size: 20px;
+        font-weight: bold;
+        color: crimson;
+    }
+    .h8{
+        margin-top: -26px;
+        margin-left: -444.5px;
+        color: darkgreen;
+        font-size: 15px;
+    }
+    .h9{
+        margin-top: -32px;
+        margin-left: -458px;
+        letter-spacing: 0.5px;
+        font-size: 20px;
+        font-weight: lighter;
+        color: darkorange;
+    }
+    /* Before footer */
+    .adjust{
+        height: 120px;
+        font-family: "Righteous";
+        padding-top: 25px;
+        background-color: darkgray;
+        opacity: 0.8;
+    }
+    .quote{
+        font-size: 17px;
+        text-align: justify;
+    }
+    .quote span{
+        color: black;
+        opacity: 0.8;
+    }
+    .author{
+        font-size: 14px;
+        padding-left: 130px;
+        color: black;
+        opacity: 0.8;
+    }
+    /* Footer */
+    .bg_color{
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+}
+
+/* Samsung S5 and Moto G4 (Landscape) */
+@media only screen and (width: 640px){
+    .d{
+        display: none;
+    }
+    .a{
+        font-size: 30px;
+        font-weight: bold;
+        padding-left: 0px;
+        font-family: "Pacific";
+    }
+    .pl-5{
+        padding: 0px !important;
+    }
+    .bg_img{
+        width: 100%;
+        margin-top: 60px;
+        height: 500px;
+        z-index: -1;
+        opacity: 0.5;
+    }
+    #shadow{
+        text-shadow: 2px 2px rgb(236, 236, 236);
+    }
+    .h1{
+        color: red;
+        margin-left: -230px;
+        font-size: 40px;
+        margin-top: -470px;
+        font-weight: bold;
+        letter-spacing: 7px;
+    }
+    .h2{
+        margin-left: -233px;
+        letter-spacing: -4.3px;
+        font-size: 30px;
+        color: rgb(246, 71, 71);
+    }
+    .h3{
+        margin-top: 10px;
+        margin-left: -238px;
+        font-size: 25px;
+        color: palevioletred;
+        letter-spacing: -2.2px;
+    }
+    .h3 span{
+        font-size: 25px;
+        padding-left: 2px;
+        color: purple;
+    }
+    .h4{
+        margin-top: 15px;
+        margin-left: -233px;
+        font-size: 23px;
+        font-weight: bold;
+        color: rgb(77, 5, 232);
+        letter-spacing: -1.8px;
+    }
+    .h4 span{
+        font-size: 23px;
+        padding-right: 8px;
+        color: rgb(58, 83, 155);
+    }
+    .h5{
+        margin-top: -35px;
+        margin-left: -334px;
+        font-size: 23px;
+        font-weight: bold;
+        color: rgb(82, 179, 217);
+        letter-spacing: -1.5px;
+    }
+    .h5 span{
+        font-size: 23px;
+        padding-left: 2px;
+        color: rgb(58, 83, 155);
+    }
+    .h6{
+        margin-top: 15px;
+        margin-left: -238px;
+        font-weight: bold;
+        font-size: 17px;
+        color: teal;
+        letter-spacing: -0.4px;
+    }
+    .h6 span{
+        font-size: 17px;
+        padding-left: 2px;
+        color: rgb(58, 83, 155);
+    }
+    .h7{
+        margin-top: 10px;
+        margin-left: -235px;
+        letter-spacing: 0.5px;
+        font-size: 25px;
+        font-weight: bold;
+        color: crimson;
+    }
+    .h8{
+        margin-top: -30px;
+        margin-left: -320px;
+        color: darkgreen;
+        font-size: 17px;
+    }
+    .h9{
+        margin-top: -36px;
+        margin-left: -330px;
+        letter-spacing: 0.5px;
+        font-size: 25px;
+        font-weight: lighter;
+        color: darkorange;
+    }
+    /* Before footer */
+    .adjust{
+        height: 120px;
+        font-family: "Righteous";
+        padding-top: 40px;
+        background-color: darkgray;
+        opacity: 0.8;
+    }
+    .quote{
+        font-size: 17px;
+        text-align: justify;
+    }
+    .quote span{
+        color: black;
+        opacity: 0.8;
+    }
+    .author{
+        font-size: 14px;
+        padding-left: 410px;
+        color: black;
+        opacity: 0.8;
+    }
+    /* Footer */
+    .bg_color{
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+}
+
+/* Pixel 2 and Pixel 2 XL (Portrait) */
+@media only screen and (width: 411px){
+    .d{
+        display: none;
+    }
+    .bg_img{
+        width: 100%;
+        margin-top: 70px;
+        height: 580px;
+        z-index: -1;
+        opacity: 0.5;
+    }
+    .a{
+        font-size: 30px;
+        font-weight: bold;
+        padding-left: 0px;
+        font-family: "Pacific";
+    }
+    .pl-5{
+        padding: 0px !important;
+    }
+    #shadow{
+        text-shadow: 2px 2px rgb(236, 236, 236);
+    }
+    .h1{
+        color: red;
+        margin-left: -340px;
+        font-size: 43px;
+        margin-top: -540px;
+        font-weight: bold;
+        letter-spacing: 6px;
+    }
+    .h2{
+        margin-left: -343px;
+        letter-spacing: -3.9px;
+        font-size: 30px;
+        color: rgb(246, 71, 71);
+    }
+    .h3{
+        margin-top: 10px;
+        margin-left: -348px;
+        font-size: 25px;
+        color: palevioletred;
+        letter-spacing: -1.8px;
+    }
+    .h3 span{
+        font-size: 25px;
+        padding-left: 2px;
+        color: purple;
+    }
+    .h4{
+        margin-top: 15px;
+        margin-left: -344px;
+        font-size: 23px;
+        font-weight: bold;
+        color: rgb(77, 5, 232);
+        letter-spacing: -1px;
+    }
+    .h4 span{
+        font-size: 23px;
+        padding-right: 8px;
+        color: rgb(58, 83, 155);
+    }
+    .h5{
+        margin-top: -35px;
+        margin-left: -440px;
+        font-size: 23px;
+        font-weight: bold;
+        color: rgb(82, 179, 217);
+        letter-spacing: -1.2px;
+    }
+    .h5 span{
+        font-size: 23px;
+        padding-left: 2px;
+        color: rgb(58, 83, 155);
+    }
+    .h6{
+        margin-top: 15px;
+        margin-left: -348px;
+        font-weight: bold;
+        font-size: 17px;
+        color: teal;
+        letter-spacing: -0.1px;
+    }
+    .h6 span{
+        font-size: 18px;
+        padding-left: 2px;
+        color: rgb(58, 83, 155);
+    }
+    .h7{
+        margin-top: 10px;
+        margin-left: -344px;
+        letter-spacing: 1px;
+        font-size: 25px;
+        font-weight: bold;
+        color: crimson;
+    }
+    .h8{
+        margin-top: -33px;
+        margin-left: -428px;
+        color: darkgreen;
+        font-size: 20px;
+    }
+    .h9{
+        margin-top: -37px;
+        margin-left: -437px;
+        letter-spacing: 1px;
+        font-size: 25px;
+        font-weight: lighter;
+        color: darkorange;
+    }
+    /* Before footer */
+    .adjust{
+        height: 120px;
+        font-family: "Righteous";
+        padding-top: 30px;
+        background-color: darkgray;
+        opacity: 0.8;
+    }
+    .quote{
+        font-size: 16px;
+        text-align: justify;
+    }
+    .quote span{
+        color: black;
+        opacity: 0.8;
+    }
+    .author{
+        font-size: 14px;
+        padding-left: 175px;
+        color: black;
+        opacity: 0.8;
+    }
+    /* Footer */
+    .bg_color{
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+}
+
+/* Pixel 2 (Landscape) */
+@media only screen and (width: 731px){
+    .d{
+        display: none;
+    }
+    .bg_img{
+        width: 100%;
+        margin-top: 70px;
+        height: 531px;
+        z-index: -1;
+        opacity: 0.5;
+    }
+    .a{
+        font-size: 30px;
+        font-weight: bold;
+        padding-left: 0px;
+        font-family: "Pacific";
+    }
+    .pl-5{
+        padding: 0px !important;
+    }
+    #shadow{
+        text-shadow: 2px 2px rgb(236, 236, 236);
+    }
+    .h1{
+        color: red;
+        margin-left: -210px;
+        font-size: 50px;
+        margin-top: -510px;
+        font-weight: bold;
+        letter-spacing: 7.5px;
+    }
+    .h2{
+        margin-left: -212px;
+        letter-spacing: -4.5px;
+        font-size: 35px;
+        color: rgb(246, 71, 71);
+    }
+    .h3{
+        margin-top: 10px;
+        margin-left: -217px;
+        font-size: 28px;
+        color: palevioletred;
+        letter-spacing: -1.5px;
+    }
+    .h3 span{
+        font-size: 30px;
+        padding-left: 2px;
+        color: purple;
+    }
+    .h4{
+        margin-top: 15px;
+        margin-left: -215px;
+        font-size: 28px;
+        font-weight: bold;
+        color: rgb(77, 5, 232);
+        letter-spacing: -2.5px;
+    }
+    .h4 span{
+        font-size: 28px;
+        padding-right: 8px;
+        color: rgb(58, 83, 155);
+    }
+    .h5{
+        margin-top: -41px;
+        margin-left: -300px;
+        font-size: 28px;
+        font-weight: bold;
+        color: rgb(82, 179, 217);
+        letter-spacing: -1.5px;
+    }
+    .h5 span{
+        font-size: 28px;
+        padding-left: 2px;
+        color: rgb(58, 83, 155);
+    }
+    .h6{
+        margin-top: 15px;
+        margin-left: -215px;
+        font-weight: bold;
+        font-size: 18px;
+        color: teal;
+        letter-spacing: 0.5px;
+    }
+    .h6 span{
+        font-size: 23px;
+        padding-left: 2px;
+        color: rgb(58, 83, 155);
+    }
+    .h7{
+        margin-top: -1px;
+        margin-left: -214px;
+        letter-spacing: 1px;
+        font-size: 30px;
+        font-weight: bold;
+        color: crimson;
+    }
+    .h8{
+        margin-top: -34.5px;
+        margin-left: -285.5px;
+        color: darkgreen;
+        font-size: 20px;
+    }
+    .h9{
+        margin-top: -42px;
+        margin-left: -295px;
+        letter-spacing: 1px;
+        font-size: 30px;
+        font-weight: lighter;
+        color: darkorange;
+    }
+    /* Before footer */
+    .adjust{
+        height: 120px;
+        font-family: "Righteous";
+        padding-top: 37px;
+        background-color: darkgray;
+        opacity: 0.8;
+    }
+    .quote{
+        font-size: 19px;
+        text-align: justify;
+    }
+    .quote span{
+        color: black;
+        opacity: 0.8;
+    }
+    .author{
+        font-size: 16px;
+        padding-left: 470px;
+        color: black;
+        opacity: 0.8;
+    }
+    /* Footer */
+    .bg_color{
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }   
+}
+
+/* Pixel 2 XL (Height) */
+@media only screen and (height: 823px){
+    .bg_img{
+        width: 100%;
+        margin-top: 70px;
+        height: 670px;
+        z-index: -1;
+        opacity: 0.5;
+    }
+    .a{
+        font-size: 30px;
+        font-weight: bold;
+        padding-left: 0px;
+        font-family: "Pacific";
+    }
+    .pl-5{
+        padding: 0px !important;
+    }
+    #shadow{
+        text-shadow: 2px 2px rgb(236, 236, 236);
+    }
+    .h1{
+        color: red;
+        margin-top: -620px;   
+    }
+    /* Before footer and footer is same as Pixel 2 portrait */
+}
+
+/* Pixel 2 XL (Landscape) */
+@media only screen and (width: 823px){
+    .d{
+        display: none;
+    }
+    .bg_img{
+        width: 100%;
+        margin-top: 70px;
+        height: 531px;
+        z-index: -1;
+        opacity: 0.5;
+    }
+    .a{
+        font-size: 30px;
+        font-weight: bold;
+        padding-left: 0px;
+        font-family: "Pacific";
+    }
+    .pl-5{
+        padding: 0px !important;
+    }
+    #shadow{
+        text-shadow: 2px 2px rgb(236, 236, 236);
+    }
+    .h1{
+        color: red;
+        margin-left: -170px;
+        font-size: 50px;
+        margin-top: -510px;
+        font-weight: bold;
+        letter-spacing: 8px;
+    }
+    .h2{
+        margin-left: -172px;
+        letter-spacing: -4.5px;
+        font-size: 35px;
+        color: rgb(246, 71, 71);
+    }
+    .h3{
+        margin-top: 10px;
+        margin-left: -177px;
+        font-size: 28px;
+        color: palevioletred;
+        letter-spacing: -1.7px;
+    }
+    .h3 span{
+        font-size: 30px;
+        padding-left: 2px;
+        color: purple;
+    }
+    .h4{
+        margin-top: 15px;
+        margin-left: -175px;
+        font-size: 28px;
+        font-weight: bold;
+        color: rgb(77, 5, 232);
+        letter-spacing: -2.8px;
+    }
+    .h4 span{
+        font-size: 28px;
+        padding-right: 8px;
+        color: rgb(58, 83, 155);
+    }
+    .h5{
+        margin-top: -41px;
+        margin-left: -259px;
+        font-size: 28px;
+        font-weight: bold;
+        color: rgb(82, 179, 217);
+        letter-spacing: -2px;
+    }
+    .h5 span{
+        font-size: 28px;
+        padding-left: 2px;
+        color: rgb(58, 83, 155);
+    }
+    .h6{
+        margin-top: 15px;
+        margin-left: -175px;
+        font-weight: bold;
+        font-size: 18px;
+        color: teal;
+        letter-spacing: 0.5px;
+    }
+    .h6 span{
+        font-size: 23px;
+        padding-left: 2px;
+        color: rgb(58, 83, 155);
+    }
+    .h7{
+        margin-top: -1px;
+        margin-left: -172px;
+        letter-spacing: 0.8px;
+        font-size: 30px;
+        font-weight: bold;
+        color: crimson;
+    }
+    .h8{
+        margin-top: -34.5px;
+        margin-left: -244px;
+        color: darkgreen;
+        font-size: 20px;
+    }
+    .h9{
+        margin-top: -42px;
+        margin-left: -253px;
+        letter-spacing: 0.8px;
+        font-size: 30px;
+        font-weight: lighter;
+        color: darkorange;
+    }
+    /* Before footer */
+    .adjust{
+        height: 120px;
+        font-family: "Righteous";
+        padding-top: 37px;
+        background-color: darkgray;
+        opacity: 0.8;
+    }
+    .quote{
+        font-size: 20px;
+        text-align: justify;
+    }
+    .quote span{
+        color: black;
+        opacity: 0.8;
+    }
+    .author{
+        font-size: 17px;
+        padding-left: 550px;
+        color: black;
+        opacity: 0.8;
+    }
+    /* Footer */
+    .bg_color{
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+}
+
+/* Iphone 5/SE (Portrait) */
+@media only screen and (width: 320px){
+    .d{
+        display: none;
+    }
+    .bg_img{
+        width: 100%;
+        margin-top: 70px;
+        height: 470px;
+        z-index: -1;
+        opacity: 0.5;
+    }
+    .a{
+        font-size: 30px;
+        font-weight: bold;
+        padding-left: 0px;
+        font-family: "Pacific";
+    }
+    .pl-5{
+        padding: 0px !important;
+    }
+    #shadow{
+        text-shadow: 2px 2px rgb(236, 236, 236);
+    }
+    .h1{
+        color: red;
+        margin-left: -353px;
+        font-size: 35px;
+        margin-top: -440px;
+        font-weight: bold;
+        letter-spacing: 3px;
+    }
+    .h2{
+        margin-left: -355px;
+        letter-spacing: -3.4px;
+        font-size: 23px;
+        color: rgb(246, 71, 71);
+    }
+    .h3{
+        margin-top: 10px;
+        margin-left: -359px;
+        font-size: 18px;
+        color: palevioletred;
+        letter-spacing: -1.3px;
+    }
+    .h3 span{
+        font-size: 20px;
+        padding-left: 2px;
+        color: purple;
+    }
+    .h4{
+        margin-top: 15px;
+        margin-left: -354px;
+        font-size: 17px;
+        font-weight: bold;
+        color: rgb(77, 5, 232);
+        letter-spacing: -1.5px;
+    }
+    .h4 span{
+        font-size: 18px;
+        padding-right: 8px;
+        color: rgb(58, 83, 155);
+    }
+    .h5{
+        margin-top: -29px;
+        margin-left: -476px;
+        font-size: 17px;
+        font-weight: bold;
+        color: rgb(82, 179, 217);
+        letter-spacing: -1px;
+    }
+    .h5 span{
+        font-size: 18px;
+        padding-left: 2px;
+        color: rgb(58, 83, 155);
+    }
+    .h6{
+        margin-top: 15px;
+        margin-left: -356px;
+        font-weight: bold;
+        font-size: 11px;
+        color: teal;
+        letter-spacing: 0.3px;
+    }
+    .h6 span{
+        font-size: 13px;
+        padding-left: 2px;
+        color: rgb(58, 83, 155);
+    }
+    .h7{
+        margin-top: 12px;
+        margin-left: -353px;
+        letter-spacing: -0.2px;
+        font-size: 19px;
+        font-weight: bold;
+        color: crimson;
+    }
+    .h8{
+        margin-top: -24px;
+        margin-left: -457px;
+        color: darkgreen;
+        font-size: 13px;
+    }
+    .h9{
+        margin-top: -29px;
+        margin-left: -471px;
+        letter-spacing: -0.2px;
+        font-size: 19px;
+        font-weight: lighter;
+        color: darkorange;
+    }
+    /* Before footer */
+    .adjust{
+        height: 120px;
+        font-family: "Righteous";
+        padding-top: 30px;
+        background-color: darkgray;
+        opacity: 0.8;
+    }
+    .quote{
+        font-size: 15px;
+        text-align: justify;
+    }
+    .quote span{
+        color: black;
+        opacity: 0.8;
+    }
+    .author{
+        font-size: 13px;
+        padding-left: 97px;
+        color: black;
+        opacity: 0.8;
+    }
+    /* Footer */
+    .bg_color{
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 20px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+}
+
+/* Iphone 5/SE (Landscape) */
+@media only screen and (width: 568px){
+    .d{
+        display: none;
+    }
+    .bg_img{
+        width: 100%;
+        margin-top: 70px;
+        height: 470px;
+        z-index: -1;
+        opacity: 0.5;
+    }
+    .a{
+        font-size: 30px;
+        font-weight: bold;
+        padding-left: 0px;
+        font-family: "Pacific";
+    }
+    .pl-5{
+        padding: 0px !important;
+    }
+    #shadow{
+        text-shadow: 2px 2px rgb(236, 236, 236);
+    }
+    .h1{
+        color: red;
+        margin-left: -263px;
+        font-size: 38px;
+        margin-top: -435px;
+        font-weight: bold;
+        letter-spacing: 3px;
+    }
+    .h2{
+        margin-left: -264px;
+        letter-spacing: -3.4px;
+        font-size: 24px;
+        color: rgb(246, 71, 71);
+    }
+    .h3{
+        margin-top: 10px;
+        margin-left: -268px;
+        font-size: 18px;
+        color: palevioletred;
+        letter-spacing: -0.8px;
+    }
+    .h3 span{
+        font-size: 20px;
+        padding-left: 2px;
+        color: purple;
+    }
+    .h4{
+        margin-top: 15px;
+        margin-left: -263px;
+        font-size: 18px;
+        font-weight: bold;
+        color: rgb(77, 5, 232);
+        letter-spacing: -1.5px;
+    }
+    .h4 span{
+        font-size: 18px;
+        padding-right: 8px;
+        color: rgb(58, 83, 155);
+    }
+    .h5{
+        margin-top: -29px;
+        margin-left: -381px;
+        font-size: 18px;
+        font-weight: bold;
+        color: rgb(82, 179, 217);
+        letter-spacing: -1px;
+    }
+    .h5 span{
+        font-size: 18px;
+        padding-left: 2px;
+        color: rgb(58, 83, 155);
+    }
+    .h6{
+        margin-top: 15px;
+        margin-left: -265px;
+        font-weight: bold;
+        font-size: 11px;
+        color: teal;
+        letter-spacing: 0.7px;
+    }
+    .h6 span{
+        font-size: 13px;
+        padding-left: 2px;
+        color: rgb(58, 83, 155);
+    }
+    .h7{
+        margin-top: 5px;
+        margin-left: -262px;
+        letter-spacing: -0.1px;
+        font-size: 20px;
+        font-weight: bold;
+        color: crimson;
+    }
+    .h8{
+        margin-top: -24px;
+        margin-left: -362.5px;
+        color: darkgreen;
+        font-size: 13px;
+    }
+    .h9{
+        margin-top: -31px;
+        margin-left: -376px;
+        letter-spacing: -0.2px;
+        font-size: 20px;
+        font-weight: lighter;
+        color: darkorange;
+    }
+    /* Before footer */
+    .adjust{
+        height: 120px;
+        font-family: "Righteous";
+        padding-top: 40px;
+        background-color: darkgray;
+        opacity: 0.8;
+    }
+    .quote{
+        font-size: 15px;
+        text-align: justify;
+    }
+    .quote span{
+        color: black;
+        opacity: 0.8;
+    }
+    .author{
+        font-size: 13px;
+        padding-left: 345px;
+        color: black;
+        opacity: 0.8;
+    }
+    /* Footer */
+    .bg_color{
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 20px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 2px;
+    }   
+}
+
+/* Iphone 6/7/8 and Iphone X (Portrait) */
+@media only screen and (width: 375px){
+    .d{
+        display: none;
+    }
+    .bg_img{
+        width: 100%;
+        margin-top: 70px;
+        height: 500px;
+        z-index: -1;
+        opacity: 0.5;
+    }
+    .a{
+        font-size: 30px;
+        font-weight: bold;
+        padding-left: 0px;
+        font-family: "Pacific";
+    }
+    .pl-5{
+        padding: 0px !important;
+    }
+    #shadow{
+        text-shadow: 2px 2px rgb(236, 236, 236);
+    }
+    .h1{
+        color: red;
+        margin-left: -342px;
+        font-size: 35px;
+        margin-top: -470px;
+        font-weight: bold;
+        letter-spacing: 5px;
+    }
+    .h2{
+        margin-left: -344px;
+        letter-spacing: -3.8px;
+        font-size: 25px;
+        color: rgb(246, 71, 71);
+    }
+    .h3{
+        margin-top: 10px;
+        margin-left: -349px;
+        font-size: 20px;
+        color: palevioletred;
+        letter-spacing: -1.7px;
+    }
+    .h3 span{
+        font-size: 20px;
+        padding-left: 2px;
+        color: purple;
+    }
+    .h4{
+        margin-top: 15px;
+        margin-left: -344px;
+        font-size: 18px;
+        font-weight: bold;
+        color: rgb(77, 5, 232);
+        letter-spacing: -1px;
+    }
+    .h4 span{
+        font-size: 18px;
+        padding-right: 8px;
+        color: rgb(58, 83, 155);
+    }
+    .h5{
+        margin-top: -29px;
+        margin-left: -459px;
+        font-size: 18px;
+        font-weight: bold;
+        color: rgb(82, 179, 217);
+        letter-spacing: -1.2px;
+    }
+    .h5 span{
+        font-size: 18px;
+        padding-left: 2px;
+        color: rgb(58, 83, 155);
+    }
+    .h6{
+        margin-top: 15px;
+        margin-left: -348px;
+        font-weight: bold;
+        font-size: 13px;
+        color: teal;
+        letter-spacing: -0px;
+    }
+    .h6 span{
+        font-size: 13px;
+        padding-left: 2px;
+        color: rgb(58, 83, 155);
+    }
+    .h7{
+        margin-top: 10px;
+        margin-left: -344.5px;
+        letter-spacing: 0.2px;
+        font-size: 21px;
+        font-weight: bold;
+        color: crimson;
+    }
+    .h8{
+        margin-top: -25px;
+        margin-left: -443.8px;
+        color: darkgreen;
+        font-size: 14px;
+    }
+    .h9{
+        margin-top: -32px;
+        margin-left: -459px;
+        letter-spacing: 0.2px;
+        font-size: 21px;
+        font-weight: lighter;
+        color: darkorange;
+    }
+    /* Before footer */
+    .adjust{
+        height: 120px;
+        font-family: "Righteous";
+        padding-top: 28px;
+        background-color: darkgray;
+        opacity: 0.8;
+    }
+    .quote{
+        font-size: 16px;
+        text-align: justify;
+    }
+    .quote span{
+        color: black;
+        opacity: 0.8;
+    }
+    .author{
+        font-size: 14px;
+        padding-left: 130px;
+        color: black;
+        opacity: 0.8;
+    }
+    /* Footer */
+    .bg_color{
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+}
+
+/* Iphone X (Height) */
+@media only screen and (height: 812px){
+    .bg_img{
+        width: 100%;
+        margin-top: 70px;
+        height: 650px;
+        z-index: -1;
+        opacity: 0.5;
+    }
+    .a{
+        font-size: 30px;
+        font-weight: bold;
+        padding-left: 0px;
+        font-family: "Pacific";
+    }
+    .pl-5{
+        padding: 0px !important;
+    }
+    #shadow{
+        text-shadow: 2px 2px rgb(236, 236, 236);
+    }
+    .h1{
+        color: red;
+        margin-left: -349px;
+        font-size: 42px;
+        margin-top: -580px;
+        font-weight: bold;
+        letter-spacing: 4.5px;
+    }
+    .h2{
+        margin-left: -351px;
+        letter-spacing: -5px;
+        font-size: 30px;
+        color: rgb(246, 71, 71);
+    }
+    .h3{
+        margin-top: 10px;
+        margin-left: -356px;
+        font-size: 23px;
+        color: palevioletred;
+        letter-spacing: -1.8px;
+    }
+    .h3 span{
+        font-size: 23px;
+        padding-left: 2px;
+        color: purple;
+    }
+    .h4{
+        margin-top: 15px;
+        margin-left: -350px;
+        font-size: 20px;
+        font-weight: bold;
+        color: rgb(77, 5, 232);
+        letter-spacing: -1px;
+    }
+    .h4 span{
+        font-size: 20px;
+        padding-right: 8px;
+        color: rgb(58, 83, 155);
+    }
+    .h5{
+        margin-top: -32.5px;
+        margin-left: -456px;
+        font-size: 20px;
+        font-weight: bold;
+        color: rgb(82, 179, 217);
+        letter-spacing: -0.6px;
+    }
+    .h5 span{
+        font-size: 18px;
+        padding-left: 2px;
+        color: rgb(58, 83, 155);
+    }
+    .h6{
+        margin-top: 15px;
+        margin-left: -352px;
+        font-weight: bold;
+        font-size: 14px;
+        color: teal;
+        letter-spacing: 0.3px;
+    }
+    .h6 span{
+        font-size: 14px;
+        padding-left: 2px;
+        color: rgb(58, 83, 155);
+    }
+    .h7{
+        margin-top: 10px;
+        margin-left: -350px;
+        letter-spacing: -0.5px;
+        font-size: 25px;
+        font-weight: bold;
+        color: crimson;
+    }
+    .h8{
+        margin-top: -27px;
+        margin-left: -441px;
+        color: darkgreen;
+        font-size: 15px;
+    }
+    .h9{
+        margin-top: -36.5px;
+        margin-left: -455px;
+        letter-spacing: -0.5px;
+        font-size: 25px;
+        font-weight: lighter;
+        color: darkorange;
+    }
+    /* Before footer */
+    .adjust{
+        height: 120px;
+        font-family: "Righteous";
+        padding-top: 25px;
+        background-color: darkgray;
+        opacity: 0.8;
+    }
+    .quote{
+        font-size: 17px;
+        text-align: justify;
+    }
+    .quote span{
+        color: black;
+        opacity: 0.8;
+    }
+    .author{
+        font-size: 14px;
+        padding-left: 130px;
+        color: black;
+        opacity: 0.8;
+    }
+    /* Footer */
+    .bg_color{
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+}
+
+/* Iphone 6/7/8 (Landscape) */
+@media only screen and (width: 667px){
+    .d{
+        display: none;
+    }
+    .bg_img{
+        width: 100%;
+        margin-top: 60px;
+        height: 500px;
+        z-index: -1;
+        opacity: 0.5;
+    }
+    .a{
+        font-size: 30px;
+        font-weight: bold;
+        padding-left: 0px;
+        font-family: "Pacific";
+    }
+    .pl-5{
+        padding: 0px !important;
+    }
+    #shadow{
+        text-shadow: 2px 2px rgb(236, 236, 236);
+    }
+    .h1{
+        color: red;
+        margin-left: -230px;
+        font-size: 40px;
+        margin-top: -455px;
+        font-weight: bold;
+        letter-spacing: 7px;
+    }
+    .h2{
+        margin-left: -233px;
+        letter-spacing: -4.3px;
+        font-size: 30px;
+        color: rgb(246, 71, 71);
+    }
+    .h3{
+        margin-top: 10px;
+        margin-left: -238px;
+        font-size: 25px;
+        color: palevioletred;
+        letter-spacing: -2.2px;
+    }
+    .h3 span{
+        font-size: 25px;
+        padding-left: 2px;
+        color: purple;
+    }
+    .h4{
+        margin-top: 15px;
+        margin-left: -233px;
+        font-size: 23px;
+        font-weight: bold;
+        color: rgb(77, 5, 232);
+        letter-spacing: -1.8px;
+    }
+    .h4 span{
+        font-size: 23px;
+        padding-right: 8px;
+        color: rgb(58, 83, 155);
+    }
+    .h5{
+        margin-top: -35px;
+        margin-left: -334px;
+        font-size: 23px;
+        font-weight: bold;
+        color: rgb(82, 179, 217);
+        letter-spacing: -1.5px;
+    }
+    .h5 span{
+        font-size: 23px;
+        padding-left: 2px;
+        color: rgb(58, 83, 155);
+    }
+    .h6{
+        margin-top: 15px;
+        margin-left: -238px;
+        font-weight: bold;
+        font-size: 17px;
+        color: teal;
+        letter-spacing: -0.4px;
+    }
+    .h6 span{
+        font-size: 17px;
+        padding-left: 2px;
+        color: rgb(58, 83, 155);
+    }
+    .h7{
+        margin-top: 10px;
+        margin-left: -235px;
+        letter-spacing: 0.5px;
+        font-size: 25px;
+        font-weight: bold;
+        color: crimson;
+    }
+    .h8{
+        margin-top: -30px;
+        margin-left: -320px;
+        color: darkgreen;
+        font-size: 17px;
+    }
+    .h9{
+        margin-top: -36px;
+        margin-left: -330px;
+        letter-spacing: 0.5px;
+        font-size: 25px;
+        font-weight: lighter;
+        color: darkorange;
+    }
+    /* Before footer */
+    .adjust{
+        height: 120px;
+        font-family: "Righteous";
+        padding-top: 40px;
+        background-color: darkgray;
+        opacity: 0.8;
+    }
+    .quote{
+        font-size: 17px;
+        text-align: justify;
+    }
+    .quote span{
+        color: black;
+        opacity: 0.8;
+    }
+    .author{
+        font-size: 14px;
+        padding-left: 432px;
+        color: black;
+        opacity: 0.8;
+    }
+    /* Footer */
+    .bg_color{
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+}
+
+/* Iphone 6/7/8 Plus (Portrait) */
+@media only screen and (width: 414px){
+    .d{
+        display: none;
+    }
+    .bg_img{
+        width: 100%;
+        margin-top: 70px;
+        height: 580px;
+        z-index: -1;
+        opacity: 0.5;
+    }
+    .a{
+        font-size: 30px;
+        font-weight: bold;
+        padding-left: 0px;
+        font-family: "Pacific";
+    }
+    .pl-5{
+        padding: 0px !important;
+    }
+    #shadow{
+        text-shadow: 2px 2px rgb(236, 236, 236);
+    }
+    .h1{
+        color: red;
+        margin-left: -340px;
+        font-size: 43px;
+        margin-top: -540px;
+        font-weight: bold;
+        letter-spacing: 7px;
+    }
+    .h2{
+        margin-left: -342px;
+        letter-spacing: -3.7px;
+        font-size: 30px;
+        color: rgb(246, 71, 71);
+    }
+    .h3{
+        margin-top: 10px;
+        margin-left: -347px;
+        font-size: 25px;
+        color: palevioletred;
+        letter-spacing: -1.8px;
+    }
+    .h3 span{
+        font-size: 25px;
+        padding-left: 2px;
+        color: purple;
+    }
+    .h4{
+        margin-top: 15px;
+        margin-left: -344px;
+        font-size: 23px;
+        font-weight: bold;
+        color: rgb(77, 5, 232);
+        letter-spacing: -1px;
+    }
+    .h4 span{
+        font-size: 23px;
+        padding-right: 8px;
+        color: rgb(58, 83, 155);
+    }
+    .h5{
+        margin-top: -35px;
+        margin-left: -440px;
+        font-size: 23px;
+        font-weight: bold;
+        color: rgb(82, 179, 217);
+        letter-spacing: -1.2px;
+    }
+    .h5 span{
+        font-size: 23px;
+        padding-left: 2px;
+        color: rgb(58, 83, 155);
+    }
+    .h6{
+        margin-top: 15px;
+        margin-left: -348px;
+        font-weight: bold;
+        font-size: 17px;
+        color: teal;
+        letter-spacing: -0.1px;
+    }
+    .h6 span{
+        font-size: 18px;
+        padding-left: 2px;
+        color: rgb(58, 83, 155);
+    }
+    .h7{
+        margin-top: 10px;
+        margin-left: -344px;
+        letter-spacing: 1px;
+        font-size: 25px;
+        font-weight: bold;
+        color: crimson;
+    }
+    .h8{
+        margin-top: -33px;
+        margin-left: -428px;
+        color: darkgreen;
+        font-size: 20px;
+    }
+    .h9{
+        margin-top: -37px;
+        margin-left: -437px;
+        letter-spacing: 1px;
+        font-size: 25px;
+        font-weight: lighter;
+        color: darkorange;
+    }
+    /* Before footer */
+    .adjust{
+        height: 120px;
+        font-family: "Righteous";
+        padding-top: 30px;
+        background-color: darkgray;
+        opacity: 0.8;
+    }
+    .quote{
+        font-size: 16.5px;
+        text-align: justify;
+    }
+    .quote span{
+        color: black;
+        opacity: 0.8;
+    }
+    .author{
+        font-size: 14px;
+        padding-left: 175px;
+        color: black;
+        opacity: 0.8;
+    }
+    /* Footer */
+    .bg_color{
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+}
+
+/* Iphone 6/7/8 Plus (Landscape) */
+@media only screen and (width: 736px){
+    .d{
+        display: none;
+    }
+    .bg_img{
+        width: 100%;
+        margin-top: 70px;
+        height: 531px;
+        z-index: -1;
+        opacity: 0.5;
+    }
+    .a{
+        font-size: 30px;
+        font-weight: bold;
+        padding-left: 0px;
+        font-family: "Pacific";
+    }
+    .pl-5{
+        padding: 0px !important;
+    }
+    #shadow{
+        text-shadow: 2px 2px rgb(236, 236, 236);
+    }
+    .h1{
+        color: red;
+        margin-left: -210px;
+        font-size: 50px;
+        margin-top: -500px;
+        font-weight: bold;
+        letter-spacing: 7.5px;
+    }
+    .h2{
+        margin-left: -212px;
+        letter-spacing: -4.5px;
+        font-size: 35px;
+        color: rgb(246, 71, 71);
+    }
+    .h3{
+        margin-top: 10px;
+        margin-left: -217px;
+        font-size: 28px;
+        color: palevioletred;
+        letter-spacing: -1.5px;
+    }
+    .h3 span{
+        font-size: 30px;
+        padding-left: 2px;
+        color: purple;
+    }
+    .h4{
+        margin-top: 15px;
+        margin-left: -215px;
+        font-size: 28px;
+        font-weight: bold;
+        color: rgb(77, 5, 232);
+        letter-spacing: -2.5px;
+    }
+    .h4 span{
+        font-size: 28px;
+        padding-right: 8px;
+        color: rgb(58, 83, 155);
+    }
+    .h5{
+        margin-top: -41px;
+        margin-left: -300px;
+        font-size: 28px;
+        font-weight: bold;
+        color: rgb(82, 179, 217);
+        letter-spacing: -1.5px;
+    }
+    .h5 span{
+        font-size: 28px;
+        padding-left: 2px;
+        color: rgb(58, 83, 155);
+    }
+    .h6{
+        margin-top: 15px;
+        margin-left: -215px;
+        font-weight: bold;
+        font-size: 18px;
+        color: teal;
+        letter-spacing: 0.5px;
+    }
+    .h6 span{
+        font-size: 23px;
+        padding-left: 2px;
+        color: rgb(58, 83, 155);
+    }
+    .h7{
+        margin-top: -1px;
+        margin-left: -214px;
+        letter-spacing: 1px;
+        font-size: 30px;
+        font-weight: bold;
+        color: crimson;
+    }
+    .h8{
+        margin-top: -34.5px;
+        margin-left: -285.5px;
+        color: darkgreen;
+        font-size: 20px;
+    }
+    .h9{
+        margin-top: -42px;
+        margin-left: -295px;
+        letter-spacing: 1px;
+        font-size: 30px;
+        font-weight: lighter;
+        color: darkorange;
+    }
+    /* Before footer */
+    .adjust{
+        height: 120px;
+        font-family: "Righteous";
+        padding-top: 37px;
+        background-color: darkgray;
+        opacity: 0.8;
+    }
+    .quote{
+        font-size: 19px;
+        text-align: justify;
+    }
+    .quote span{
+        color: black;
+        opacity: 0.8;
+    }
+    .author{
+        font-size: 16px;
+        padding-left: 470px;
+        color: black;
+        opacity: 0.8;
+    }
+    /* Footer */
+    .bg_color{
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+}
+
+/* Iphone X (Landscape) */
+@media only screen and (width: 812px){
+    .d{
+        display: none;
+    }
+    .bg_img{
+        width: 100%;
+        margin-top: 70px;
+        height: 500px;
+        z-index: -1;
+        opacity: 0.5;
+    }
+    .a{
+        font-size: 30px;
+        font-weight: bold;
+        padding-left: 0px;
+        font-family: "Pacific";
+    }
+    .pl-5{
+        padding: 0px !important;
+    }
+    #shadow{
+        text-shadow: 2px 2px rgb(236, 236, 236);
+    }
+    .h1{
+        color: red;
+        margin-left: -190px;
+        font-size: 50px;
+        margin-top: -460px;
+        font-weight: bold;
+        letter-spacing: 10px;
+    }
+    .h2{
+        margin-left: -190px;
+        letter-spacing: -0.8px;
+        font-size: 30px;
+        color: rgb(246, 71, 71);
+    }
+    .h3{
+        margin-top: 10px;
+        margin-left: -195px;
+        font-size: 26px;
+        color: palevioletred;
+        letter-spacing: 0.1px;
+    }
+    .h3 span{
+        font-size: 26px;
+        padding-left: 2px;
+        color: purple;
+    }
+    .h4{
+        margin-top: 15px;
+        margin-left: -192px;
+        font-size: 28px;
+        font-weight: bold;
+        color: rgb(77, 5, 232);
+        letter-spacing: -1.6px;
+    }
+    .h4 span{
+        font-size: 28px;
+        padding-right: 8px;
+        color: rgb(58, 83, 155);
+    }
+    .h5{
+        margin-top: -41px;
+        margin-left: -272.5px;
+        font-size: 28px;
+        font-weight: bold;
+        color: rgb(82, 179, 217);
+        letter-spacing: -1px;
+    }
+    .h5 span{
+        font-size: 28px;
+        padding-left: 2px;
+        color: rgb(58, 83, 155);
+    }
+    .h6{
+        margin-top: 14px;
+        margin-left: -193px;
+        font-weight: bold;
+        font-size: 17px;
+        color: teal;
+        letter-spacing: 1.4px;
+    }
+    .h6 span{
+        font-size: 22px;
+        padding-left: 2px;
+        color: rgb(58, 83, 155);
+    }
+    .h7{
+        margin-top: 10px;
+        margin-left: -192px;
+        letter-spacing: -0.2px;
+        font-size: 33px;
+        font-weight: bold;
+        color: crimson;
+    }
+    .h8{
+        margin-top: -33.5px;
+        margin-left: -258.5px;
+        color: darkgreen;
+        font-size: 19px;
+    }
+    .h9{
+        margin-top: -43.4px;
+        margin-left: -268px;
+        letter-spacing: -0.2px;
+        font-size: 33px;
+        font-weight: lighter;
+        color: darkorange;
+    }
+    /* Before footer */
+    .adjust{
+        height: 120px;
+        font-family: "Righteous";
+        padding-top: 37px;
+        background-color: darkgray;
+        opacity: 0.8;
+    }
+    .quote{
+        font-size: 20px;
+        text-align: justify;
+    }
+    .quote span{
+        color: black;
+        opacity: 0.8;
+    }
+    .author{
+        font-size: 17px;
+        padding-left: 542px;
+        color: black;
+        opacity: 0.8;
+    }
+    /* Footer */
+    .bg_color{
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+}
+
+/* Ipad (Portrait) */
+@media only screen and (width: 768px){
+    .d{
+        display: none;
+    }
+    .bg_img{
+        width: 100%;
+        margin-top: 70px;
+        height: 860px;
+        z-index: -1;
+        opacity: 0.5;
+    }
+    .a{
+        font-size: 35px;
+        font-weight: bold;
+        padding-left: 40px;
+        font-family: "Pacific";
+    }
+    .pl-5{
+        font-size: 20px;
+    }
+    #shadow{
+        text-shadow: 2px 2px rgb(236, 236, 236);
+    }
+    .h1{
+        color: red;
+        margin-left: -220px;
+        font-size: 65px;
+        margin-top: -785px;
+        font-weight: bold;
+        letter-spacing: 9px;
+    }
+    .h2{
+        margin-top: 10px;
+        margin-left: -220px;
+        letter-spacing: -6.2px;
+        font-size: 45px;
+        color: rgb(246, 71, 71);
+    }
+    .h3{
+        margin-top: 15px;
+        margin-left: -224px;
+        font-size: 35px;
+        color: palevioletred;
+        letter-spacing: -1.8px;
+    }
+    .h3 span{
+        font-size: 35px;
+        padding-left: 2px;
+        color: purple;
+    }
+    .h4{
+        margin-top: 18px;
+        margin-left: -222px;
+        font-size: 38px;
+        font-weight: bold;
+        color: rgb(77, 5, 232);
+        letter-spacing: -5px;
+    }
+    .h4 span{
+        font-size: 38px;
+        padding-right: 8px;
+        color: rgb(58, 83, 155);
+    }
+    .h5{
+        margin-top: -53px;
+        margin-left: -280px;
+        font-size: 38px;
+        font-weight: bold;
+        color: rgb(82, 179, 217);
+        letter-spacing: -4px;
+    }
+    .h5 span{
+        font-size: 38px;
+        padding-left: 2px;
+        color: rgb(58, 83, 155);
+    }
+    .h6{
+        margin-top: 19px;
+        margin-left: -223px;
+        font-weight: bold;
+        font-size: 25px;
+        color: teal;
+        letter-spacing: -0.2px;
+    }
+    .h6 span{
+        font-size: 25px;
+        padding-left: 2px;
+        color: rgb(58, 83, 155);
+    }
+    .h7{
+        margin-top: 16px;
+        margin-left: -222px;
+        letter-spacing: -0.25px;
+        font-size: 40px;
+        font-weight: bold;
+        color: crimson;
+    }
+    .h8{
+        margin-top: -47px;
+        margin-left: -271px;
+        color: darkgreen;
+        font-size: 30px;
+    }
+    .h9{
+        margin-top: -52.8px;
+        margin-left: -274px;
+        letter-spacing: -0.25px;
+        font-size: 40px;
+        font-weight: lighter;
+        color: darkorange;
+    }
+    /* Before footer */
+    .adjust{
+        height: 120px;
+        font-family: "Righteous";
+        padding-top: 37px;
+        background-color: darkgray;
+        opacity: 0.8;
+    }
+    .quote{
+        font-size: 20px;
+        text-align: justify;
+    }
+    .quote span{
+        color: black;
+        opacity: 0.8;
+    }
+    .author{
+        font-size: 17px;
+        padding-left: 496px;
+        color: black;
+        opacity: 0.8;
+    }
+    /* Footer */
+    .bg_color{
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+}
+
+/* Ipad (Landscape) */
+@media only screen and (width: 1024px){
+    .d{
+        margin-top: 20px;
+        width: 20px;
+        transform: rotate(90deg);
+    }
+    .bg_img{
+        width: 100%;
+        margin-top: 70px;
+        height: 690px;
+        z-index: -1;
+        opacity: 0.5;
+    }
+    .a{
+        font-size: 35px;
+        font-weight: bold;
+        padding-left: 40px;
+        font-family: "Pacific";
+    }
+    #shadow{
+        text-shadow: 2px 2px rgb(236, 236, 236);
+    }
+    .h1{
+        color: red;
+        margin-left: -115px;
+        font-size: 65px;
+        margin-top: -620px;
+        font-weight: bold;
+        letter-spacing: 9px;
+    }
+    .h2{
+        margin-top: 10px;
+        margin-left: -115px;
+        letter-spacing: -6.2px;
+        font-size: 45px;
+        color: rgb(246, 71, 71);
+    }
+    .h3{
+        margin-top: 15px;
+        margin-left: -119px;
+        font-size: 35px;
+        color: palevioletred;
+        letter-spacing: -1.8px;
+    }
+    .h3 span{
+        font-size: 35px;
+        padding-left: 2px;
+        color: purple;
+    }
+    .h4{
+        margin-top: 18px;
+        margin-left: -117px;
+        font-size: 38px;
+        font-weight: bold;
+        color: rgb(77, 5, 232);
+        letter-spacing: -5px;
+    }
+    .h4 span{
+        font-size: 38px;
+        padding-right: 8px;
+        color: rgb(58, 83, 155);
+    }
+    .h5{
+        margin-top: -53px;
+        margin-left: -175px;
+        font-size: 38px;
+        font-weight: bold;
+        color: rgb(82, 179, 217);
+        letter-spacing: -4px;
+    }
+    .h5 span{
+        font-size: 38px;
+        padding-left: 2px;
+        color: rgb(58, 83, 155);
+    }
+    .h6{
+        margin-top: 19px;
+        margin-left: -117px;
+        font-weight: bold;
+        font-size: 25px;
+        color: teal;
+        letter-spacing: -0.2px;
+    }
+    .h6 span{
+        font-size: 25px;
+        padding-left: 2px;
+        color: rgb(58, 83, 155);
+    }
+    .h7{
+        margin-top: 16px;
+        margin-left: -116px;
+        letter-spacing: -0.25px;
+        font-size: 40px;
+        font-weight: bold;
+        color: crimson;
+    }
+    .h8{
+        margin-top: -47px;
+        margin-left: -165.5px;
+        color: darkgreen;
+        font-size: 30px;
+    }
+    .h9{
+        margin-top: -52.8px;
+        margin-left: -169px;
+        letter-spacing: -0.25px;
+        font-size: 40px;
+        font-weight: lighter;
+        color: darkorange;
+    }
+    /* Before footer */
+    .adjust{
+        height: 120px;
+        font-family: "Righteous";
+        padding-top: 33px;
+        background-color: darkgray;
+        opacity: 0.8;
+    }
+    .quote{
+        font-size: 24px;
+        text-align: justify;
+    }
+    .quote span{
+        color: black;
+        opacity: 0.8;
+    }
+    .author{
+        font-size: 19px;
+        padding-left: 695px;
+        color: black;
+        opacity: 0.8;
+    }
+    /* Footer */
+    .bg_color{
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+}
+
+/* Ipad Pro (Portrait) */
+@media only screen and (width: 1024px){
+    .d{
+        margin-top: 20px;
+        width: 20px;
+        transform: rotate(90deg);
+    }
+    .bg_img{
+        width: 100%;
+        margin-top: 70px;
+        height: 1280px;
+        z-index: -1;
+        opacity: 0.5;
+    }
+    .a{
+        font-size: 35px;
+        font-weight: bold;
+        padding-left: 40px;
+        font-family: "Pacific";
+    }
+    li > a{
+        font-size: 20px;
+    }
+    #shadow{
+        text-shadow: 2px 2px rgb(236, 236, 236);
+    }
+    .h1{
+        color: red;
+        margin-left: -117px;
+        font-size: 75px;
+        margin-top: -1130px;
+        font-weight: bold;
+        letter-spacing: 15px;
+    }
+    .h2{
+        margin-top: 10px;
+        margin-left: -116px;
+        letter-spacing: -5px;
+        font-size: 52px;
+        color: rgb(246, 71, 71);
+    }
+    .h3{
+        margin-top: 15px;
+        margin-left: -119px;
+        font-size: 40px;
+        color: palevioletred;
+        letter-spacing: 0px;
+    }
+    .h3 span{
+        font-size: 40px;
+        padding-left: 2px;
+        color: purple;
+    }
+    .h4{
+        margin-top: 18px;
+        margin-left: -117px;
+        font-size: 44px;
+        font-weight: bold;
+        color: rgb(77, 5, 232);
+        letter-spacing: -4px;
+    }
+    .h4 span{
+        font-size: 44px;
+        padding-right: 8px;
+        color: rgb(58, 83, 155);
+    }
+    .h5{
+        margin-top: -60px;
+        margin-left: -148px;
+        font-size: 44px;
+        font-weight: bold;
+        color: rgb(82, 179, 217);
+        letter-spacing: -2px;
+    }
+    .h5 span{
+        font-size: 44px;
+        padding-left: 2px;
+        color: rgb(58, 83, 155);
+    }
+    .h6{
+        margin-top: 19px;
+        margin-left: -117px;
+        font-weight: bold;
+        font-size: 28px;
+        color: teal;
+        letter-spacing: 1.3px;
+    }
+    .h6 span{
+        font-size: 28px;
+        padding-left: 2px;
+        color: rgb(58, 83, 155);
+    }
+    .h7{
+        margin-top: 16px;
+        margin-left: -116px;
+        letter-spacing: 0px;
+        font-size: 50px;
+        font-weight: bold;
+        color: crimson;
+    }
+    .h8{
+        margin-top: -48.5px;
+        margin-left: -139px;
+        color: darkgreen;
+        font-size: 30px;
+    }
+    .h9{
+        margin-top: -63.5px;
+        margin-left: -140px;
+        letter-spacing: 0px;
+        font-size: 50px;
+        font-weight: lighter;
+        color: darkorange;
+    }
+    /* Before footer */
+    .adjust{
+        height: 120px;
+        font-family: "Righteous";
+        padding-top: 33px;
+        background-color: darkgray;
+        opacity: 0.8;
+    }
+    .quote{
+        font-size: 24px;
+        text-align: justify;
+    }
+    .quote span{
+        color: black;
+        opacity: 0.8;
+    }
+    .author{
+        font-size: 19px;
+        padding-left: 695px;
+        color: black;
+        opacity: 0.8;
+    }
+    /* Footer */
+    .bg_color{
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+}
+/* Ipad Pro (Landscape) */
+@media only screen and (width: 1366px){
+    .bg_img{
+        width: 100%;
+        margin-top: 70px;
+        height: 850px;
+        z-index: -1;
+        opacity: 0.5;
+    }
+    .h1{
+        margin-top: -780px;
+    }  
+}
+
+/* THE END */

@@ -1,0 +1,1244 @@
+@font-face{
+    font-family: "Comic";
+    src: url("Font/ComicNeue-Bold.ttf");
+}
+.head{
+    font-family: "Righteous";
+    margin-top: 100px;
+    font-size: 60px;
+    color: tomato;
+    letter-spacing: 5px;
+    margin-left: 97px;
+}
+.head span{
+    font-family: "Righteous";
+    font-size: 60px;
+    color: red;
+}
+.para{
+    font-family: "Comic";
+    line-height: 28px;
+    margin-top: 25px;
+    text-align: justify;
+    color: grey;
+    font-size: 17px;
+    letter-spacing: 1px;
+    padding: 0px 102px 0px 102px;
+}
+.para span{
+    color: tomato;
+}
+/* Footer */
+.bg_color{
+    background-color: rgb(236, 236, 236);
+    height: 130px;
+}
+.fa{
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 25px;
+    width: 40px;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#icons{
+    text-decoration: none;
+}
+.fa:hover{
+    opacity: 0.7;
+    color: red;
+}
+.fa-facebook{
+    background-color: rgb(236, 236, 236);
+    color: black;
+}
+.fa-github{
+    background-color: rgb(236, 236, 236);
+    color: black;
+}
+.fa-google{
+    background-color: rgb(236, 236, 236);
+    color: black;
+}
+.copy{
+    margin-top: 15px;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+/* Samsung S5 and Moto G4 (Portrait) */
+@media only screen and (width: 360px){
+    .head{
+        font-family: "Righteous";
+        margin-top: 100px;
+        font-size: 40px;
+        color: tomato;
+        letter-spacing: 5px;
+        margin-left: 32px;
+    }
+    .head span{
+        font-family: "Righteous";
+        font-size: 40px;
+        color: red;
+    }
+    .para{
+        font-family: "Comic";
+        line-height: 28px;
+        margin-top: 20px;
+        text-align: justify;
+        color: grey;
+        font-size: 15px;
+        letter-spacing: 0.5px;
+        padding: 0px 36px 0px 36px;
+    }
+    .para span{
+        color: tomato;
+    }
+    /* Footer */
+    .bg_color{
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+}
+
+/* Samsung S5 and Moto G4 (Landscape) */
+@media only screen and (width: 640px){
+    .head{
+        font-family: "Righteous";
+        margin-top: 100px;
+        font-size: 42px;
+        color: tomato;
+        letter-spacing: 5px;
+        margin-left: 47px;
+    }
+    .head span{
+        font-family: "Righteous";
+        font-size: 42px;
+        color: red;
+    }
+    .para{
+        font-family: "Comic";
+        line-height: 28px;
+        margin-top: 15px;
+        text-align: justify;
+        color: grey;
+        font-size: 15px;
+        letter-spacing: 0.5px;
+        padding: 0px 50px 0px 50px;
+    }
+    .para span{
+        color: tomato;
+    }
+    /* Footer */
+    .bg_color{
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+}
+
+/* Pixel 2 and Pixel 2 XL (Portrait) */
+@media only screen and (width: 411px){
+    .head{
+        font-family: "Righteous";
+        margin-top: 100px;
+        font-size: 45px;
+        color: tomato;
+        letter-spacing: 5px;
+        margin-left: 32px;
+    }
+    .head span{
+        font-family: "Righteous";
+        font-size: 45px;
+        color: red;
+    }
+    .para{
+        font-family: "Comic";
+        line-height: 28px;
+        margin-top: 20px;
+        text-align: justify;
+        color: grey;
+        font-size: 16px;
+        letter-spacing: 0.5px;
+        padding: 0px 36px 0px 36px;
+    }
+    .para span{
+        color: tomato;
+    }
+    /* Footer */
+    .bg_color{
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+}
+
+/* Pixel 2 (Landscape) */
+@media only screen and (width: 731px){
+    .head{
+        font-family: "Righteous";
+        margin-top: 100px;
+        font-size: 48px;
+        color: tomato;
+        letter-spacing: 5px;
+        margin-left: 48px;
+    }
+    .head span{
+        font-family: "Righteous";
+        font-size: 48px;
+        color: red;
+    }
+    .para{
+        font-family: "Comic";
+        line-height: 28px;
+        margin-top: 20px;
+        text-align: justify;
+        color: grey;
+        font-size: 16px;
+        letter-spacing: 0.5px;
+        padding: 0px 52px 0px 52px;
+    }
+    .para span{
+        color: tomato;
+    }
+    /* Footer */
+    .bg_color{
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+}
+
+/* Pixel 2 XL (Height) */
+@media only screen and (height: 823px){
+    .head{
+        font-family: "Righteous";
+        margin-top: 100px;
+        font-size: 48px;
+        color: tomato;
+        letter-spacing: 5px;
+        margin-left: 46px;
+    }
+    .head span{
+        font-family: "Righteous";
+        font-size: 48px;
+        color: red;
+    }
+    .para{
+        font-family: "Comic";
+        line-height: 28px;
+        margin-top: 20px;
+        text-align: justify;
+        color: grey;
+        font-size: 16.5px;
+        letter-spacing: 0.5px;
+        padding: 0px 50px 0px 50px;
+    }
+    .para span{
+        color: tomato;
+    }
+    /* Footer */
+    .bg_color{
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+}
+
+/* Pixel 2 XL (Landscape) */
+@media only screen and (width: 823px){
+    .head{
+        font-family: "Righteous";
+        margin-top: 100px;
+        font-size: 48px;
+        color: tomato;
+        letter-spacing: 5px;
+        margin-left: 50px;
+    }
+    .head span{
+        font-family: "Righteous";
+        font-size: 48px;
+        color: red;
+    }
+    .para{
+        font-family: "Comic";
+        line-height: 28px;
+        margin-top: 20px;
+        text-align: justify;
+        color: grey;
+        font-size: 16px;
+        letter-spacing: 0.5px;
+        padding: 0px 54px 0px 54px;
+    }
+    .para span{
+        color: tomato;
+    }
+    /* Footer */
+    .bg_color{
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+}
+
+/* Iphone 5/SE (Portrait) */
+@media only screen and (width: 320px){
+    .head{
+        font-family: "Righteous";
+        margin-top: 100px;
+        font-size: 40px;
+        color: tomato;
+        letter-spacing: 5px;
+        margin-left: 32px;
+    }
+    .head span{
+        font-family: "Righteous";
+        font-size: 40px;
+        color: red;
+    }
+    .para{
+        font-family: "Comic";
+        line-height: 28px;
+        margin-top: 20px;
+        text-align: justify;
+        color: grey;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        padding: 0px 36px 0px 36px;
+    }
+    .para span{
+        color: tomato;
+    }
+    /* Footer */
+    .bg_color{
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 20px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+}
+
+/* Iphone 5/SE (Landscape) */
+@media only screen and (width: 568px){
+    .head{
+        font-family: "Righteous";
+        margin-top: 100px;
+        font-size: 42px;
+        color: tomato;
+        letter-spacing: 5px;
+        margin-left: 50px;
+    }
+    .head span{
+        font-family: "Righteous";
+        font-size: 42px;
+        color: red;
+    }
+    .para{
+        font-family: "Comic";
+        line-height: 28px;
+        margin-top: 20px;
+        text-align: justify;
+        color: grey;
+        font-size: 15px;
+        letter-spacing: 0.5px;
+        padding: 0px 53px 0px 53px;
+    }
+    .para span{
+        color: tomato;
+    }
+    /* Footer */
+    .bg_color{
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 20px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+}
+
+/* Iphone 6/7/8 and Iphone X (Portrait) */
+@media only screen and (width: 375px){
+    .head{
+        font-family: "Righteous";
+        margin-top: 100px;
+        font-size: 43px;
+        color: tomato;
+        letter-spacing: 5px;
+        margin-left: 32px;
+    }
+    .head span{
+        font-family: "Righteous";
+        font-size: 43px;
+        color: red;
+    }
+    .para{
+        font-family: "Comic";
+        line-height: 28px;
+        margin-top: 20px;
+        text-align: justify;
+        color: grey;
+        font-size: 15.5px;
+        letter-spacing: 0.5px;
+        padding: 0px 36px 0px 36px;
+    }
+    .para span{
+        color: tomato;
+    }
+    /* Footer */
+    .bg_color{
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+}
+
+/* Iphone X (Height) */
+@media only screen and (height: 812px){
+    .head{
+        font-family: "Righteous";
+        margin-top: 100px;
+        font-size: 44px;
+        color: tomato;
+        letter-spacing: 5px;
+        margin-left: 32px;
+    }
+    .head span{
+        font-family: "Righteous";
+        font-size: 44px;
+        color: red;
+    }
+    .para{
+        font-family: "Comic";
+        line-height: 28px;
+        margin-top: 20px;
+        text-align: justify;
+        color: grey;
+        font-size: 16.8px;
+        letter-spacing: 0.5px;
+        padding: 0px 36px 0px 36px;
+    }
+    .para span{
+        color: tomato;
+    }
+    /* Footer */
+    .bg_color{
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+}
+
+/* Iphone 6/7/8 (Landscape) */
+@media only screen and (width: 667px){
+    .head{
+        font-family: "Righteous";
+        margin-top: 100px;
+        font-size: 44px;
+        color: tomato;
+        letter-spacing: 5px;
+        margin-left: 50px;
+    }
+    .head span{
+        font-family: "Righteous";
+        font-size: 44px;
+        color: red;
+    }
+    .para{
+        font-family: "Comic";
+        line-height: 28px;
+        margin-top: 15px;
+        text-align: justify;
+        color: grey;
+        font-size: 16px;
+        letter-spacing: 0.5px;
+        padding: 0px 53px 0px 53px;
+    }
+    .para span{
+        color: tomato;
+    }
+    /* Footer */
+    .bg_color{
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+}
+
+/* Iphone 6/7/8 Plus (Portrait) */
+@media only screen and (width: 414px){
+    .head{
+        font-family: "Righteous";
+        margin-top: 100px;
+        font-size: 47px;
+        color: tomato;
+        letter-spacing: 5px;
+        margin-left: 32px;
+    }
+    .head span{
+        font-family: "Righteous";
+        font-size: 47px;
+        color: red;
+    }
+    .para{
+        font-family: "Comic";
+        line-height: 28px;
+        margin-top: 20px;
+        text-align: justify;
+        color: grey;
+        font-size: 16.5px;
+        letter-spacing: 0.5px;
+        padding: 0px 36px 0px 36px;
+    }
+    .para span{
+        color: tomato;
+    }
+    /* Footer */
+    .bg_color{
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+}
+
+/* Iphone 6/7/8 Plus (Landscape) */
+@media only screen and (width: 736px){
+    .head{
+        font-family: "Righteous";
+        margin-top: 100px;
+        font-size: 48px;
+        color: tomato;
+        letter-spacing: 5px;
+        margin-left: 48px;
+    }
+    .head span{
+        font-family: "Righteous";
+        font-size: 48px;
+        color: red;
+    }
+    .para{
+        font-family: "Comic";
+        line-height: 28px;
+        margin-top: 20px;
+        text-align: justify;
+        color: grey;
+        font-size: 16px;
+        letter-spacing: 0.5px;
+        padding: 0px 52px 0px 52px;
+    }
+    .para span{
+        color: tomato;
+    }
+    /* Footer */
+    .bg_color{
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+}
+
+/* Iphone X (Landscape) */
+@media only screen and (width: 812px){
+    .head{
+        font-family: "Righteous";
+        margin-top: 100px;
+        font-size: 49px;
+        color: tomato;
+        letter-spacing: 5px;
+        margin-left: 48px;
+    }
+    .head span{
+        font-family: "Righteous";
+        font-size: 49px;
+        color: red;
+    }
+    .para{
+        font-family: "Comic";
+        line-height: 28px;
+        margin-top: 20px;
+        text-align: justify;
+        color: grey;
+        font-size: 16px;
+        letter-spacing: 0.5px;
+        padding: 0px 52px 0px 52px;
+    }
+    .para span{
+        color: tomato;
+    }
+    /* Footer */
+    .bg_color{
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+}
+
+/* Ipad (Portrait) */
+@media only screen and (width: 768px){
+    .head{
+        font-family: "Righteous";
+        margin-top: 100px;
+        font-size: 50px;
+        color: tomato;
+        letter-spacing: 5px;
+        margin-left: 51px;
+    }
+    .head span{
+        font-family: "Righteous";
+        font-size: 50px;
+        color: red;
+    }
+    .para{
+        font-family: "Comic";
+        line-height: 28px;
+        margin-top: 20px;
+        text-align: justify;
+        color: grey;
+        font-size: 17px;
+        letter-spacing: 0.5px;
+        padding: 0px 55px 0px 55px;
+    }
+    .para span{
+        color: tomato;
+    }
+    /* Footer */
+    .bg_color{
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+}
+
+/* Ipad (Landscape) */
+@media only screen and (width: 1024px){
+    .head{
+        font-family: "Righteous";
+        margin-top: 100px;
+        font-size: 55px;
+        color: tomato;
+        letter-spacing: 5px;
+        margin-left: 75px;
+    }
+    .head span{
+        font-family: "Righteous";
+        font-size: 55px;
+        color: red;
+    }
+    .para{
+        font-family: "Comic";
+        line-height: 28px;
+        margin-top: 25px;
+        text-align: justify;
+        color: grey;
+        font-size: 17px;
+        letter-spacing: 1px;
+        padding: 0px 80px 0px 80px;
+    }
+    .para span{
+        color: tomato;
+    }
+    /* Footer */
+    .bg_color{
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+}
+
+/* Ipad Pro (Portrait) */
+@media only screen and (width: 1024px){
+    .head{
+        font-family: "Righteous";
+        margin-top: 100px;
+        font-size: 55px;
+        color: tomato;
+        letter-spacing: 5px;
+        margin-left: 75px;
+    }
+    .head span{
+        font-family: "Righteous";
+        font-size: 55px;
+        color: red;
+    }
+    .para{
+        font-family: "Comic";
+        line-height: 28px;
+        margin-top: 25px;
+        text-align: justify;
+        color: grey;
+        font-size: 17px;
+        letter-spacing: 1px;
+        padding: 0px 80px 0px 80px;
+    }
+    .para span{
+        color: tomato;
+    }
+    /* Footer */
+    .bg_color{
+        background-color: rgb(236, 236, 236);
+        height: 130px;
+    }
+    .fa{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icons{
+        text-decoration: none;
+    }
+    .fa:hover{
+        opacity: 0.7;
+        color: red;
+    }
+    .fa-facebook{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-github{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .fa-google{
+        background-color: rgb(236, 236, 236);
+        color: black;
+    }
+    .copy{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+}
+
+/* THE END */
